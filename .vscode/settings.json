@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "clinical_playwright_project"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

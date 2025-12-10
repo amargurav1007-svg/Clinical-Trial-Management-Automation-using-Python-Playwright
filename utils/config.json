@@ -1,0 +1,14 @@
+{
+  "log_level": "INFO",
+  "app_settings": {
+    "base_url": "https://demoqa.com/login",
+    "username": "TestUser1",
+    "password": "Password123"
+  },
+  "patient": {
+    "name": "Rahul Sharma",
+    "age": "45",
+    "gender": "Male",
+    "study_protocol": "ONC-2024-01"
+  }
+}

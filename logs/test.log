@@ -1,0 +1,523 @@
+2025-11-22 16:04:11,765 — INFO — clinical_automation — === Test session started ===
+2025-11-22 16:04:15,377 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-22 16:04:15,378 — DEBUG — page — Opening URL: https://demoqa.com/text-box
+2025-11-22 16:04:48,939 — INFO — clinical_automation — === Test session finished ===
+2025-11-22 16:16:22,740 — INFO — clinical_automation — === Test session started ===
+2025-11-22 16:16:25,872 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-22 16:16:25,872 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-22 16:16:30,660 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-22 16:16:30,661 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-22 16:16:32,196 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-22 16:16:32,266 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-22 16:16:32,319 — INFO — clinical_automation — Filled patient form with test data
+2025-11-22 16:16:32,322 — DEBUG — page — Clicking on locator: #submit
+2025-11-22 16:16:32,542 — INFO — clinical_automation — Submitted form
+2025-11-22 16:16:32,580 — DEBUG — page — is_visible(#output) -> True
+2025-11-22 16:16:32,581 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-22 16:16:35,374 — INFO — clinical_automation — === Test session finished ===
+2025-11-22 17:21:33,967 — INFO — clinical_automation — === Test session started ===
+2025-11-22 17:21:55,092 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-22 17:21:55,092 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-22 17:21:58,786 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-22 17:21:58,786 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-22 17:21:59,501 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-22 17:21:59,586 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-22 17:21:59,712 — INFO — clinical_automation — Filled patient form with test data
+2025-11-22 17:21:59,713 — DEBUG — page — Clicking on locator: #submit
+2025-11-22 17:21:59,932 — INFO — clinical_automation — Submitted form
+2025-11-22 17:21:59,950 — DEBUG — page — is_visible(#output) -> True
+2025-11-22 17:21:59,950 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-22 17:22:01,823 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-22 17:22:01,824 — DEBUG — page — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-22 17:22:05,228 — DEBUG — page — Filling locator #firstName with 'John'
+2025-11-22 17:22:06,156 — DEBUG — page — Filling locator #lastName with 'Doe'
+2025-11-22 17:22:06,402 — INFO — clinical_automation — Filled visit details
+2025-11-22 17:22:06,404 — DEBUG — page — Clicking on locator: #submit
+2025-11-22 17:22:06,547 — INFO — clinical_automation — Form submitted
+2025-11-22 17:22:06,580 — DEBUG — page — is_visible(.modal-content) -> False
+2025-11-22 17:22:09,248 — INFO — clinical_automation — === Test session finished ===
+2025-11-22 17:30:05,275 — INFO — clinical_automation — === Test session started ===
+2025-11-22 17:30:08,320 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-22 17:30:08,322 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-22 17:30:12,161 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-22 17:30:12,161 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-22 17:30:12,649 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-22 17:30:12,694 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-22 17:30:12,902 — INFO — clinical_automation — Filled patient form with test data
+2025-11-22 17:30:12,903 — DEBUG — page — Clicking on locator: #submit
+2025-11-22 17:30:13,019 — INFO — clinical_automation — Submitted form
+2025-11-22 17:30:13,046 — DEBUG — page — is_visible(#output) -> True
+2025-11-22 17:30:13,047 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-22 17:30:14,449 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-22 17:30:14,450 — DEBUG — page — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-22 17:30:18,682 — DEBUG — page — Filling locator #firstName with 'John'
+2025-11-22 17:30:18,909 — DEBUG — page — Filling locator #lastName with 'Doe'
+2025-11-22 17:30:18,981 — INFO — clinical_automation — Filled visit details
+2025-11-22 17:30:19,004 — DEBUG — page — Clicking on locator: #submit
+2025-11-22 17:30:20,010 — INFO — clinical_automation — Form submitted
+2025-11-22 17:30:20,043 — DEBUG — page — is_visible(.table-responsive) -> False
+2025-11-22 17:30:24,020 — INFO — clinical_automation — === Test session finished ===
+2025-11-22 17:33:07,985 — INFO — clinical_automation — === Test session started ===
+2025-11-22 17:33:10,919 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-22 17:33:10,919 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-22 17:33:15,279 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-22 17:33:15,279 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-22 17:33:15,430 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-22 17:33:15,469 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-22 17:33:15,513 — INFO — clinical_automation — Filled patient form with test data
+2025-11-22 17:33:15,515 — DEBUG — page — Clicking on locator: #submit
+2025-11-22 17:33:16,138 — INFO — clinical_automation — Submitted form
+2025-11-22 17:33:16,171 — DEBUG — page — is_visible(#output) -> True
+2025-11-22 17:33:16,172 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-22 17:33:17,279 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-22 17:33:17,280 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-22 17:33:18,019 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-22 17:33:18,126 — INFO — clinical_automation — Filled visit details
+2025-11-22 17:33:18,127 — DEBUG — page — Clicking on locator: button
+2025-11-22 17:33:18,480 — INFO — clinical_automation — Form submitted
+2025-11-22 17:33:18,555 — DEBUG — page — is_visible(h1) -> True
+2025-11-22 17:33:18,557 — INFO — clinical_automation — Visit created successfully
+2025-11-22 17:33:20,618 — INFO — clinical_automation — === Test session finished ===
+2025-11-23 12:56:12,122 — INFO — clinical_automation — === Test session started ===
+2025-11-23 12:56:53,201 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-23 12:56:53,201 — DEBUG — page — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-23 12:56:57,450 — DEBUG — clinical_automation — AE page opened
+2025-11-23 12:57:15,681 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-23 12:57:17,809 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-23 12:57:17,814 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-23 12:57:21,607 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-23 12:57:21,607 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-23 12:57:21,823 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-23 12:57:21,879 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-23 12:57:22,047 — INFO — clinical_automation — Filled patient form with test data
+2025-11-23 12:57:22,047 — DEBUG — page — Clicking on locator: #submit
+2025-11-23 12:57:22,287 — INFO — clinical_automation — Submitted form
+2025-11-23 12:57:22,311 — DEBUG — page — is_visible(#output) -> True
+2025-11-23 12:57:22,311 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-23 12:57:23,975 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-23 12:57:23,975 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-23 12:57:25,371 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-23 12:57:25,476 — INFO — clinical_automation — Filled visit details
+2025-11-23 12:57:25,476 — DEBUG — page — Clicking on locator: button
+2025-11-23 12:57:25,809 — INFO — clinical_automation — Form submitted
+2025-11-23 12:57:25,867 — DEBUG — page — is_visible(h1) -> True
+2025-11-23 12:57:25,867 — INFO — clinical_automation — Visit created successfully
+2025-11-23 12:57:32,112 — INFO — clinical_automation — === Test session finished ===
+2025-11-23 13:01:01,192 — INFO — clinical_automation — === Test session started ===
+2025-11-23 13:01:05,212 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-23 13:01:05,213 — DEBUG — page — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-23 13:01:10,863 — DEBUG — clinical_automation — AE page opened
+2025-11-23 13:01:25,074 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-23 13:01:27,246 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-23 13:01:27,246 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-23 13:01:32,650 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-23 13:01:32,651 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-23 13:01:32,792 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-23 13:01:32,844 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-23 13:01:32,897 — INFO — clinical_automation — Filled patient form with test data
+2025-11-23 13:01:32,897 — DEBUG — page — Clicking on locator: #submit
+2025-11-23 13:01:33,313 — INFO — clinical_automation — Submitted form
+2025-11-23 13:01:33,333 — DEBUG — page — is_visible(#output) -> True
+2025-11-23 13:01:33,333 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-23 13:01:34,735 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-23 13:01:34,735 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-23 13:01:35,531 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-23 13:01:35,621 — INFO — clinical_automation — Filled visit details
+2025-11-23 13:01:35,625 — DEBUG — page — Clicking on locator: button
+2025-11-23 13:01:35,828 — INFO — clinical_automation — Form submitted
+2025-11-23 13:01:35,881 — DEBUG — page — is_visible(h1) -> True
+2025-11-23 13:01:35,881 — INFO — clinical_automation — Visit created successfully
+2025-11-23 13:01:38,802 — INFO — clinical_automation — === Test session finished ===
+2025-11-23 13:09:45,723 — INFO — clinical_automation — === Test session started ===
+2025-11-23 13:09:49,541 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-23 13:09:49,542 — DEBUG — page — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-23 13:09:56,751 — DEBUG — clinical_automation — AE page opened
+2025-11-23 13:09:56,751 — DEBUG — page — Filling locator #userNumber with 'P1001'
+2025-11-23 13:09:59,105 — DEBUG — page — Filling locator #eventType with 'AE'
+2025-11-23 13:10:30,091 — INFO — clinical_automation — === Test session started ===
+2025-11-23 13:10:49,248 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-23 13:10:49,251 — DEBUG — page — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-23 13:11:01,227 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-23 13:11:02,311 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-23 13:11:02,311 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-23 13:11:06,815 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-23 13:11:06,821 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-23 13:11:07,589 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-23 13:11:07,643 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-23 13:11:08,072 — INFO — clinical_automation — Filled patient form with test data
+2025-11-23 13:11:08,072 — DEBUG — page — Clicking on locator: #submit
+2025-11-23 13:11:08,543 — INFO — clinical_automation — Submitted form
+2025-11-23 13:11:08,576 — DEBUG — page — is_visible(#output) -> True
+2025-11-23 13:11:08,576 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-23 13:11:10,905 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-23 13:11:10,905 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-23 13:11:12,092 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-23 13:11:12,427 — INFO — clinical_automation — Filled visit details
+2025-11-23 13:11:12,427 — DEBUG — page — Clicking on locator: button
+2025-11-23 13:11:12,791 — INFO — clinical_automation — Form submitted
+2025-11-23 13:11:12,905 — DEBUG — page — is_visible(h1) -> True
+2025-11-23 13:11:12,905 — INFO — clinical_automation — Visit created successfully
+2025-11-23 13:11:15,405 — INFO — clinical_automation — === Test session finished ===
+2025-11-23 13:11:17,722 — DEBUG — clinical_automation — AE page opened
+2025-11-23 13:11:17,722 — DEBUG — page — Filling locator #userNumber with 'P1001'
+2025-11-23 13:11:21,001 — DEBUG — page — Filling locator #eventType with 'AE'
+2025-11-23 13:12:06,880 — INFO — clinical_automation — === Test session started ===
+2025-11-23 13:12:11,462 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-23 13:12:11,464 — DEBUG — page — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-23 13:12:19,380 — DEBUG — clinical_automation — AE page opened
+2025-11-23 13:12:19,381 — DEBUG — page — Filling locator #userNumber with 'P1001'
+2025-11-23 13:12:19,524 — DEBUG — page — Filling locator #eventType with 'AE'
+2025-11-23 13:12:27,605 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-23 13:12:33,002 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-23 13:12:33,003 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-23 13:12:39,201 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-23 13:12:39,201 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-23 13:12:39,392 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-23 13:12:39,782 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-23 13:12:40,288 — INFO — clinical_automation — Filled patient form with test data
+2025-11-23 13:12:40,288 — DEBUG — page — Clicking on locator: #submit
+2025-11-23 13:12:41,511 — INFO — clinical_automation — Submitted form
+2025-11-23 13:12:41,646 — DEBUG — page — is_visible(#output) -> True
+2025-11-23 13:12:41,646 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-23 13:12:42,117 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-23 13:12:42,119 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-23 13:12:43,320 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-23 13:12:43,535 — INFO — clinical_automation — Filled visit details
+2025-11-23 13:12:43,535 — DEBUG — page — Clicking on locator: button
+2025-11-23 13:12:43,832 — INFO — clinical_automation — Form submitted
+2025-11-23 13:12:43,966 — DEBUG — page — is_visible(h1) -> True
+2025-11-23 13:12:43,966 — INFO — clinical_automation — Visit created successfully
+2025-11-23 13:12:46,673 — INFO — clinical_automation — === Test session finished ===
+2025-11-23 13:13:21,629 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-23 13:13:22,666 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-23 13:13:22,666 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-23 13:13:29,155 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-23 13:13:29,157 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-23 13:13:29,320 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-23 13:13:29,384 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-23 13:13:29,602 — INFO — clinical_automation — Filled patient form with test data
+2025-11-23 13:13:29,605 — DEBUG — page — Clicking on locator: #submit
+2025-11-23 13:13:30,621 — INFO — clinical_automation — Submitted form
+2025-11-23 13:13:30,653 — DEBUG — page — is_visible(#output) -> True
+2025-11-23 13:13:30,653 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-23 13:13:32,105 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-23 13:13:32,105 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-23 13:13:32,777 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-23 13:13:33,065 — INFO — clinical_automation — Filled visit details
+2025-11-23 13:13:33,065 — DEBUG — page — Clicking on locator: button
+2025-11-23 13:13:33,369 — INFO — clinical_automation — Form submitted
+2025-11-23 13:13:33,553 — DEBUG — page — is_visible(h1) -> True
+2025-11-23 13:13:33,553 — INFO — clinical_automation — Visit created successfully
+2025-11-23 13:13:37,259 — INFO — clinical_automation — === Test session finished ===
+2025-11-23 13:13:48,560 — INFO — clinical_automation — === Test session started ===
+2025-11-23 13:13:51,612 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-23 13:13:51,612 — DEBUG — page — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-23 13:13:58,447 — DEBUG — clinical_automation — AE page opened
+2025-11-23 13:13:58,447 — DEBUG — page — Filling locator #userNumber with 'P1001'
+2025-11-23 13:13:58,565 — DEBUG — page — Filling locator #eventType with 'AE'
+2025-11-23 13:15:02,888 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-23 13:15:03,870 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-23 13:15:03,870 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-23 13:15:10,253 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-23 13:15:10,261 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-23 13:15:11,519 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-23 13:15:12,345 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-23 13:15:14,123 — INFO — clinical_automation — Filled patient form with test data
+2025-11-23 13:15:14,131 — DEBUG — page — Clicking on locator: #submit
+2025-11-23 13:15:15,226 — INFO — clinical_automation — Submitted form
+2025-11-23 13:15:15,268 — DEBUG — page — is_visible(#output) -> True
+2025-11-23 13:15:15,268 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-23 13:15:21,080 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-23 13:15:21,081 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-23 13:15:21,741 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-23 13:15:21,907 — INFO — clinical_automation — Filled visit details
+2025-11-23 13:15:21,907 — DEBUG — page — Clicking on locator: button
+2025-11-23 13:15:22,122 — INFO — clinical_automation — Form submitted
+2025-11-23 13:15:22,197 — DEBUG — page — is_visible(h1) -> True
+2025-11-23 13:15:22,197 — INFO — clinical_automation — Visit created successfully
+2025-11-23 13:15:24,474 — INFO — clinical_automation — === Test session finished ===
+2025-11-23 13:17:53,861 — INFO — clinical_automation — === Test session started ===
+2025-11-23 13:17:57,900 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-23 13:17:57,900 — DEBUG — page — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-23 13:18:09,080 — DEBUG — clinical_automation — AE page opened
+2025-11-23 13:18:09,082 — DEBUG — page — Filling locator #userNumber with 'P1001'
+2025-11-23 13:18:09,217 — DEBUG — page — Filling locator #eventType with 'AE'
+2025-11-23 13:19:13,723 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-23 13:19:15,222 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-23 13:19:15,222 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-23 13:19:24,842 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-23 13:19:24,842 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-23 13:19:25,091 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-23 13:19:25,154 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-23 13:19:25,534 — INFO — clinical_automation — Filled patient form with test data
+2025-11-23 13:19:25,534 — DEBUG — page — Clicking on locator: #submit
+2025-11-23 13:19:25,654 — INFO — clinical_automation — Submitted form
+2025-11-23 13:19:25,680 — DEBUG — page — is_visible(#output) -> True
+2025-11-23 13:19:25,682 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-23 13:19:27,513 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-23 13:19:27,513 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-23 13:19:28,404 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-23 13:19:28,724 — INFO — clinical_automation — Filled visit details
+2025-11-23 13:19:28,732 — DEBUG — page — Clicking on locator: button
+2025-11-23 13:19:29,172 — INFO — clinical_automation — Form submitted
+2025-11-23 13:19:29,228 — DEBUG — page — is_visible(h1) -> True
+2025-11-23 13:19:29,228 — INFO — clinical_automation — Visit created successfully
+2025-11-23 13:19:31,724 — INFO — clinical_automation — === Test session finished ===
+2025-11-23 13:29:18,267 — INFO — clinical_automation — === Test session started ===
+2025-11-23 13:29:22,051 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-23 13:29:37,584 — DEBUG — clinical_automation — AE page opened
+2025-11-23 13:29:37,965 — INFO — clinical_automation — AE details filled
+2025-11-23 13:29:38,980 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-23 13:29:40,455 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-23 13:29:40,455 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-23 13:29:44,382 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-23 13:29:44,382 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-23 13:29:44,574 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-23 13:29:44,622 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-23 13:29:44,670 — INFO — clinical_automation — Filled patient form with test data
+2025-11-23 13:29:44,670 — DEBUG — page — Clicking on locator: #submit
+2025-11-23 13:29:44,966 — INFO — clinical_automation — Submitted form
+2025-11-23 13:29:44,998 — DEBUG — page — is_visible(#output) -> True
+2025-11-23 13:29:45,006 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-23 13:29:46,988 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-23 13:29:46,988 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-23 13:29:47,932 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-23 13:29:48,036 — INFO — clinical_automation — Filled visit details
+2025-11-23 13:29:48,036 — DEBUG — page — Clicking on locator: button
+2025-11-23 13:29:48,419 — INFO — clinical_automation — Form submitted
+2025-11-23 13:29:48,491 — DEBUG — page — is_visible(h1) -> True
+2025-11-23 13:29:48,491 — INFO — clinical_automation — Visit created successfully
+2025-11-23 13:29:50,354 — INFO — clinical_automation — === Test session finished ===
+2025-11-23 13:32:03,433 — INFO — clinical_automation — === Test session started ===
+2025-11-23 13:32:07,308 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-23 13:32:18,702 — DEBUG — clinical_automation — AE page opened
+2025-11-23 13:32:19,002 — INFO — clinical_automation — AE details filled
+2025-11-23 13:32:19,220 — INFO — clinical_automation — AE form submitted
+2025-11-23 13:32:21,362 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-23 13:32:23,509 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-23 13:32:23,509 — DEBUG — page — Opening URL: https://demoqa.com/text-box/
+2025-11-23 13:32:26,740 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-23 13:32:26,740 — DEBUG — page — Filling locator #userName with 'John Doe'
+2025-11-23 13:32:27,460 — DEBUG — page — Filling locator #userEmail with 'oncology@study.com'
+2025-11-23 13:32:27,740 — DEBUG — page — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-23 13:32:27,812 — INFO — clinical_automation — Filled patient form with test data
+2025-11-23 13:32:27,812 — DEBUG — page — Clicking on locator: #submit
+2025-11-23 13:32:27,924 — INFO — clinical_automation — Submitted form
+2025-11-23 13:32:27,948 — DEBUG — page — is_visible(#output) -> True
+2025-11-23 13:32:27,948 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-23 13:32:29,388 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-23 13:32:29,388 — DEBUG — page — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-23 13:32:29,852 — DEBUG — page — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-23 13:32:29,956 — INFO — clinical_automation — Filled visit details
+2025-11-23 13:32:29,956 — DEBUG — page — Clicking on locator: button
+2025-11-23 13:32:30,092 — INFO — clinical_automation — Form submitted
+2025-11-23 13:32:30,156 — DEBUG — page — is_visible(h1) -> True
+2025-11-23 13:32:30,156 — INFO — clinical_automation — Visit created successfully
+2025-11-23 13:32:32,441 — INFO — clinical_automation — === Test session finished ===
+2025-11-24 10:38:30,400 — INFO — clinical_automation — === Test session started ===
+2025-11-24 10:39:07,287 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-24 10:39:07,287 — INFO — ae — Opening AE/SAE Page
+2025-11-24 10:39:07,287 — DEBUG — base — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-24 10:39:13,487 — DEBUG — clinical_automation — AE page opened
+2025-11-24 10:39:13,487 — INFO — ae — Filling AE details
+2025-11-24 10:39:13,495 — DEBUG — base — Filling locator #firstName with 'P1001'
+2025-11-24 10:39:13,719 — DEBUG — base — Filling locator #lastName with 'AE'
+2025-11-24 10:39:13,783 — DEBUG — base — Filling locator #currentAddress with 'Headache'
+2025-11-24 10:39:13,951 — DEBUG — base — Filling locator #dateOfBirthInput with '2025-11-23'
+2025-11-24 10:39:14,615 — INFO — clinical_automation — AE details filled
+2025-11-24 10:39:14,615 — INFO — ae — Submitting AE report
+2025-11-24 10:39:14,623 — DEBUG — base — Clicking on locator: #submit
+2025-11-24 10:39:14,999 — INFO — clinical_automation — AE form submitted
+2025-11-24 10:39:24,523 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-24 10:39:26,501 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-24 10:39:26,501 — DEBUG — base — Opening URL: https://demoqa.com/text-box/
+2025-11-24 10:39:41,724 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-24 10:39:41,780 — DEBUG — base — Filling locator #userName with 'John Doe'
+2025-11-24 10:39:41,916 — DEBUG — base — Filling locator #userEmail with 'oncology@study.com'
+2025-11-24 10:39:41,972 — DEBUG — base — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-24 10:39:42,052 — INFO — clinical_automation — Filled patient form with test data
+2025-11-24 10:39:42,052 — DEBUG — base — Clicking on locator: #submit
+2025-11-24 10:39:42,204 — INFO — clinical_automation — Submitted form
+2025-11-24 10:39:42,204 — DEBUG — base — Checking visibility for locator: #output
+2025-11-24 10:39:42,252 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-24 10:39:44,555 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-24 10:39:44,555 — DEBUG — base — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-24 10:39:45,571 — DEBUG — base — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-24 10:39:45,771 — INFO — clinical_automation — Filled visit details
+2025-11-24 10:39:45,771 — DEBUG — base — Clicking on locator: button
+2025-11-24 10:39:46,267 — INFO — clinical_automation — Form submitted
+2025-11-24 10:39:46,267 — DEBUG — base — Checking visibility for locator: h1
+2025-11-24 10:39:46,339 — INFO — clinical_automation — Visit created successfully
+2025-11-24 10:39:49,808 — INFO — clinical_automation — === Test session finished ===
+2025-11-24 10:39:54,446 — INFO — clinical_automation — === Test session started ===
+2025-11-24 10:39:57,635 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-24 10:39:57,643 — INFO — ae — Opening AE/SAE Page
+2025-11-24 10:39:57,643 — DEBUG — base — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-24 10:40:15,123 — DEBUG — clinical_automation — AE page opened
+2025-11-24 10:40:15,131 — INFO — ae — Filling AE details
+2025-11-24 10:40:15,131 — DEBUG — base — Filling locator #firstName with 'P1001'
+2025-11-24 10:40:15,291 — DEBUG — base — Filling locator #lastName with 'AE'
+2025-11-24 10:40:15,355 — DEBUG — base — Filling locator #currentAddress with 'Headache'
+2025-11-24 10:40:15,435 — DEBUG — base — Filling locator #dateOfBirthInput with '2025-11-23'
+2025-11-24 10:40:15,898 — INFO — clinical_automation — AE details filled
+2025-11-24 10:40:15,906 — INFO — ae — Submitting AE report
+2025-11-24 10:40:15,906 — DEBUG — base — Clicking on locator: #submit
+2025-11-24 10:40:16,186 — INFO — clinical_automation — AE form submitted
+2025-11-24 10:40:18,624 — ERROR — clinical_automation — Screenshot saved: logs/test_ae_reporting[chromium].png
+2025-11-24 10:40:19,733 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-24 10:40:19,733 — DEBUG — base — Opening URL: https://demoqa.com/text-box/
+2025-11-24 10:40:33,811 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-24 10:40:33,811 — DEBUG — base — Filling locator #userName with 'John Doe'
+2025-11-24 10:40:33,939 — DEBUG — base — Filling locator #userEmail with 'oncology@study.com'
+2025-11-24 10:40:34,003 — DEBUG — base — Filling locator #currentAddress with 'Age: 45, Gender: Male, Protocol: ONC-2024-01'
+2025-11-24 10:40:34,067 — INFO — clinical_automation — Filled patient form with test data
+2025-11-24 10:40:34,067 — DEBUG — base — Clicking on locator: #submit
+2025-11-24 10:40:34,187 — INFO — clinical_automation — Submitted form
+2025-11-24 10:40:34,187 — DEBUG — base — Checking visibility for locator: #output
+2025-11-24 10:40:34,219 — INFO — clinical_automation — Patient enrollment output verified - test passed
+2025-11-24 10:40:35,291 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-24 10:40:35,299 — DEBUG — base — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-24 10:40:36,195 — DEBUG — base — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-24 10:40:36,315 — INFO — clinical_automation — Filled visit details
+2025-11-24 10:40:36,315 — DEBUG — base — Clicking on locator: button
+2025-11-24 10:40:36,659 — INFO — clinical_automation — Form submitted
+2025-11-24 10:40:36,659 — DEBUG — base — Checking visibility for locator: h1
+2025-11-24 10:40:36,731 — INFO — clinical_automation — Visit created successfully
+2025-11-24 10:40:39,038 — INFO — clinical_automation — === Test session finished ===
+2025-11-24 12:44:04,439 — INFO — clinical_automation — === Test session started ===
+2025-11-24 12:44:07,760 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-24 12:44:07,760 — INFO — ae — Opening AE/SAE Page
+2025-11-24 12:44:07,760 — DEBUG — base — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-24 12:44:23,280 — DEBUG — clinical_automation — AE page opened
+2025-11-24 12:44:23,288 — INFO — ae — Filling AE details
+2025-11-24 12:44:23,288 — DEBUG — base — Filling locator #firstName with 'P1001'
+2025-11-24 12:44:23,433 — DEBUG — base — Filling locator #lastName with 'AE'
+2025-11-24 12:44:23,498 — DEBUG — base — Filling locator #currentAddress with 'Headache'
+2025-11-24 12:44:23,690 — DEBUG — base — Filling locator #userNumber with '9999999999'
+2025-11-24 12:44:23,762 — DEBUG — base — Filling locator #dateOfBirthInput with '2025-11-23'
+2025-11-24 12:44:24,109 — INFO — ae — AE details filled
+2025-11-24 12:44:24,109 — INFO — clinical_automation — AE details filled
+2025-11-24 12:44:24,109 — INFO — ae — Submitting AE report
+2025-11-24 12:44:24,109 — DEBUG — base — Clicking on locator: #submit
+2025-11-24 12:44:24,406 — INFO — clinical_automation — AE form submitted
+2025-11-24 12:44:25,932 — INFO — ae — Checking if success modal is visible
+2025-11-24 12:44:25,950 — INFO — clinical_automation — AE reporting verified - test passed
+2025-11-24 12:44:27,402 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-24 12:44:27,402 — DEBUG — base — Opening URL: https://demoqa.com/text-box/
+2025-11-24 12:45:08,192 — ERROR — clinical_automation — Screenshot saved: logs/test_patient_enrollment[chromium].png
+2025-11-24 12:45:09,889 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-24 12:45:09,889 — DEBUG — base — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-24 12:45:10,673 — DEBUG — base — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-24 12:45:10,777 — INFO — clinical_automation — Filled visit details
+2025-11-24 12:45:10,777 — DEBUG — base — Clicking on locator: button
+2025-11-24 12:45:11,085 — INFO — clinical_automation — Form submitted
+2025-11-24 12:45:11,085 — DEBUG — base — Checking visibility for locator: h1
+2025-11-24 12:45:11,145 — INFO — clinical_automation — Visit created successfully
+2025-11-24 12:45:12,201 — INFO — clinical_automation — === Test session finished ===
+2025-11-24 12:50:02,653 — INFO — clinical_automation — === Test session started ===
+2025-11-24 12:50:06,169 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-24 12:50:06,172 — INFO — ae — Opening AE/SAE Page
+2025-11-24 12:50:06,172 — DEBUG — base — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-24 12:50:20,226 — DEBUG — clinical_automation — AE page opened
+2025-11-24 12:50:20,226 — INFO — ae — Filling AE details
+2025-11-24 12:50:20,226 — DEBUG — base — Filling locator #firstName with 'P1001'
+2025-11-24 12:50:20,391 — DEBUG — base — Filling locator #lastName with 'AE'
+2025-11-24 12:50:20,495 — DEBUG — base — Filling locator #currentAddress with 'Headache'
+2025-11-24 12:50:20,660 — DEBUG — base — Filling locator #userNumber with '9999999999'
+2025-11-24 12:50:20,824 — DEBUG — base — Filling locator #dateOfBirthInput with '2025-11-23'
+2025-11-24 12:50:21,251 — INFO — ae — AE details filled
+2025-11-24 12:50:21,251 — INFO — clinical_automation — AE details filled
+2025-11-24 12:50:21,251 — INFO — ae — Submitting AE report
+2025-11-24 12:50:21,251 — DEBUG — base — Clicking on locator: #submit
+2025-11-24 12:50:21,494 — INFO — clinical_automation — AE form submitted
+2025-11-24 12:50:23,018 — INFO — ae — Checking if success modal is visible
+2025-11-24 12:50:23,047 — INFO — clinical_automation — AE reporting verified - test passed
+2025-11-24 12:50:24,538 — INFO — clinical_automation — Starting patient enrollment test
+2025-11-24 12:50:24,538 — INFO — patient — Opening Patient Enrollment Page
+2025-11-24 12:50:27,770 — DEBUG — clinical_automation — Opened patient enrollment page
+2025-11-24 12:50:37,161 — ERROR — clinical_automation — Screenshot saved: logs/test_patient_enrollment[chromium].png
+2025-11-24 12:50:38,292 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-24 12:50:38,300 — DEBUG — base — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-24 12:50:39,228 — DEBUG — base — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-24 12:50:39,332 — INFO — clinical_automation — Filled visit details
+2025-11-24 12:50:39,332 — DEBUG — base — Clicking on locator: button
+2025-11-24 12:50:39,476 — INFO — clinical_automation — Form submitted
+2025-11-24 12:50:39,476 — DEBUG — base — Checking visibility for locator: h1
+2025-11-24 12:50:39,540 — INFO — clinical_automation — Visit created successfully
+2025-11-24 12:50:43,972 — INFO — clinical_automation — === Test session finished ===
+2025-11-24 12:57:30,751 — INFO — clinical_automation — === Test session started ===
+2025-11-24 12:57:34,469 — INFO — clinical_automation — Starting AE/SAE reporting test
+2025-11-24 12:57:34,469 — INFO — ae — Opening AE/SAE Page
+2025-11-24 12:57:34,469 — DEBUG — base — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-24 12:57:49,129 — DEBUG — clinical_automation — AE page opened
+2025-11-24 12:57:49,129 — INFO — ae — Filling AE details
+2025-11-24 12:57:49,129 — DEBUG — base — Filling locator #firstName with 'P1001'
+2025-11-24 12:57:49,281 — DEBUG — base — Filling locator #lastName with 'AE'
+2025-11-24 12:57:49,337 — DEBUG — base — Filling locator #currentAddress with 'Headache'
+2025-11-24 12:57:49,504 — DEBUG — base — Filling locator #userNumber with '9999999999'
+2025-11-24 12:57:49,552 — DEBUG — base — Filling locator #dateOfBirthInput with '2025-11-23'
+2025-11-24 12:57:49,773 — INFO — ae — AE details filled
+2025-11-24 12:57:49,773 — INFO — clinical_automation — AE details filled
+2025-11-24 12:57:49,773 — INFO — ae — Submitting AE report
+2025-11-24 12:57:49,781 — DEBUG — base — Clicking on locator: #submit
+2025-11-24 12:57:50,152 — INFO — clinical_automation — AE form submitted
+2025-11-24 12:57:51,675 — INFO — ae — Checking if success modal is visible
+2025-11-24 12:57:51,688 — INFO — clinical_automation — AE reporting verified - test passed
+2025-11-24 12:57:53,014 — INFO — clinical_automation — Starting Visit Scheduling Test
+2025-11-24 12:57:53,014 — DEBUG — base — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-24 12:57:53,606 — DEBUG — base — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-24 12:57:53,838 — INFO — clinical_automation — Filled visit details
+2025-11-24 12:57:53,838 — DEBUG — base — Clicking on locator: button
+2025-11-24 12:57:54,158 — INFO — clinical_automation — Form submitted
+2025-11-24 12:57:54,166 — DEBUG — base — Checking visibility for locator: h1
+2025-11-24 12:57:54,238 — INFO — clinical_automation — Visit created successfully
+2025-11-24 12:57:56,987 — INFO — clinical_automation — === Test session finished ===
+2025-11-24 13:19:57,853 — INFO — test — Starting AE/SAE reporting test
+2025-11-24 13:19:57,853 — INFO — ae — Opening AE/SAE Page
+2025-11-24 13:19:57,853 — DEBUG — base — Opening URL: https://demoqa.com/automation-practice-form
+2025-11-24 13:20:13,472 — DEBUG — test — AE page opened
+2025-11-24 13:20:13,472 — INFO — ae — Filling AE details
+2025-11-24 13:20:13,472 — DEBUG — base — Filling locator #firstName with 'P1001'
+2025-11-24 13:20:13,616 — DEBUG — base — Filling locator #lastName with 'AE'
+2025-11-24 13:20:13,680 — DEBUG — base — Filling locator #currentAddress with 'Headache'
+2025-11-24 13:20:13,840 — DEBUG — base — Filling locator #userNumber with '9999999999'
+2025-11-24 13:20:13,936 — DEBUG — base — Filling locator #dateOfBirthInput with '2025-11-23'
+2025-11-24 13:20:14,168 — INFO — ae — AE details filled
+2025-11-24 13:20:14,168 — INFO — test — AE details filled
+2025-11-24 13:20:14,168 — INFO — ae — Submitting AE report
+2025-11-24 13:20:14,168 — DEBUG — base — Clicking on locator: #submit
+2025-11-24 13:20:14,576 — INFO — test — AE form submitted
+2025-11-24 13:20:16,115 — INFO — ae — Checking if success modal is visible
+2025-11-24 13:20:16,139 — INFO — test — AE reporting verified - test passed
+2025-11-24 13:20:18,101 — INFO — test — Starting Visit Scheduling Test
+2025-11-24 13:20:18,101 — DEBUG — base — Opening URL: https://www.selenium.dev/selenium/web/web-form.html
+2025-11-24 13:20:18,940 — DEBUG — base — Filling locator input[name='my-text'] with 'John Doe'
+2025-11-24 13:20:19,068 — INFO — test — Filled visit details
+2025-11-24 13:20:19,068 — DEBUG — base — Clicking on locator: button
+2025-11-24 13:20:19,252 — INFO — test — Form submitted
+2025-11-24 13:20:19,252 — DEBUG — base — Checking visibility for locator: h1
+2025-11-24 13:20:19,356 — INFO — test — Visit created successfully
+2025-12-10 17:01:04,154 — INFO — ae — Opening AE/SAE Page
+2025-12-10 17:01:09,765 — INFO — ae — Filling AE details
+2025-12-10 17:01:11,012 — INFO — ae — AE details filled
+2025-12-10 17:01:11,013 — INFO — ae — Submitting AE report
+2025-12-10 17:01:12,568 — INFO — ae — Checking if success modal is visible
+2025-12-10 17:10:40,448 — INFO — ae — Opening AE/SAE Page
+2025-12-10 17:20:30,462 — INFO — ae — Opening AE/SAE Page
+2025-12-10 17:22:17,024 — INFO — ae — Opening AE/SAE Page
+2025-12-10 17:42:54,138 — INFO — ae — Opening AE/SAE Page
+2025-12-10 17:43:10,058 — INFO — ae — Filling AE details
+2025-12-10 17:43:10,721 — INFO — ae — AE details filled
+2025-12-10 17:43:10,745 — INFO — ae — Submitting AE report
+2025-12-10 17:43:11,045 — INFO — ae — Checking if success modal is visible
+2025-12-10 18:04:37,751 — INFO — ae — Opening AE/SAE Page
+2025-12-10 18:04:37,751 — INFO — base — Opening URL: https://demoqa.com/automation-practice-form
+2025-12-10 18:04:41,875 — INFO — ae — Filling AE details
+2025-12-10 18:04:44,943 — INFO — ae — AE details filled
+2025-12-10 18:04:44,983 — INFO — ae — Submitting AE report
+2025-12-10 18:07:55,874 — INFO — ae — Opening AE/SAE Page
+2025-12-10 18:07:55,935 — INFO — base — Opening URL: https://demoqa.com/automation-practice-form
+2025-12-10 18:07:59,675 — INFO — ae — Filling AE details
+2025-12-10 18:08:00,176 — INFO — ae — AE details filled
+2025-12-10 18:08:00,176 — INFO — ae — Submitting AE report
+2025-12-10 18:08:00,637 — INFO — ae — Checking if success modal is visible
