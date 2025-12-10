@@ -1,4 +1,4 @@
-name: Playwright Test Automation CI
+name: Playwright Python Automation CI
 
 on:
   push:
@@ -11,28 +11,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest pytest-playwright python-dotenv
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest pytest-playwright python-dotenv
 
-    - name: Install Playwright Browsers
-      run: |
-        playwright install --with-deps
+      - name: Install Playwright Browsers
+        run: |
+          playwright install --with-deps
 
-    - name: Create .env file
-      run: |
-        echo "BASE_URL=https://demoqa.com/automation-practice-form" >> .env
+      - name: Create .env File
+        run: |
+          echo "BASE_URL=https://demoqa.com/automation-practice-form" > .env
 
-    - name: Run Pytest Automation
-      run: |
-        pytest -v --maxfail=1 --disable-warnings
+      - name: Run Automation Tests
+        run: |
+          pytest -s -v
