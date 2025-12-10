@@ -1,22 +1,14 @@
 import pytest
 from pages.login_page import LoginPage
-from utils.config import config
 
 
-def test_login(page):
-    # Create LoginPage object
-    login_page = LoginPage(page)
+def test_valid_login(page):
+    login = LoginPage(page)
 
-    # Read config values
-    base_url = config.get("app_settings.base_url")
-    username = config.get("app_settings.username")
-    password = config.get("app_settings.password")
+    login.open()
+    login.enter_username("testuser")
+    login.enter_password("Test@123")
+    login.click_login()
 
-    # Step 1: Open application
-    login_page.goto(base_url)
-
-    # Step 2: Perform login
-    login_page.login(username, password)
-
-    # Step 3: Basic validation after login
-    assert base_url in page.url or page.url is not None
+    profile_name = login.get_profile_name()
+    assert profile_name != ""
