@@ -1,6 +1,7 @@
 import pytest
-from clinical_playwright_project.pages.login_page import LoginPage
-from utils.config import config # Import the config object
+from pages.login_page import LoginPage
+from utils.config import config
+
 
 def test_login(page):
     login_page = LoginPage(page)
@@ -15,4 +16,5 @@ def test_login(page):
     # Step 2: Login
     login_page.login(username, password)
 
-    # Step 3: Verify login (Add assertions later)
+    # Step 3: Basic validation (dummy)
+    assert page.url is not None

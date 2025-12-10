@@ -11,7 +11,7 @@ class LoginPage:
         self.password_input = "#password"
         self.login_button = "#login"
 
-    def goto(self, url):
+    def goto(self, url: str):
         self.page.goto(url, timeout=60000)
 
     def login(self, username: str, password: str):
