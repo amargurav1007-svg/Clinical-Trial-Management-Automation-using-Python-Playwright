@@ -1,43 +1,16 @@
-# 📘 QMS — Master Lifecycle Diagram (Audit → CAPA → Closure)
-
-This repository models an enterprise **Clinical Quality Management System (QMS)** lifecycle.  
-It represents how **Document Initiation, Protocol Audit, and CAPA** interact in a regulated clinical environment.
-
-> **Note:** Since we do not have a live QMS UI,  
-> - *Document Initiation* is mapped to a public demo site (demoqa).  
-> - *Protocol Audit* and *CAPA* are implemented as **design blueprints** and are marked *skipped* in automation until a real QMS application becomes available.
-
----
-
-# 🔁 **End-to-End QMS Workflow**
-
-1. Document or Protocol is created  
-2. Protocol Audit is planned & executed  
-3. Major / Minor findings are recorded  
-4. CAPA is automatically triggered  
-5. CAPA Review → Approval → Effectiveness Check  
-6. QMS Cycle is Closed
-
----
-
-# 🧩 **Mermaid QMS Lifecycle Diagram**
-
-> ✔️ GitHub-compatible  
-> ✔️ No HTML  
-> ✔️ No parsing errors  
-> ✔️ Tested & verified
-
 ```mermaid
 flowchart LR
 
-%% ----- Document Management -----
-subgraph DOC [Document Management]
-    D1[Create Document / Protocol (SOP / CRF)]
-    D2[Document Review]
-    D3[Document Approval]
+%% ---------------------- QMS DOCUMENT MANAGEMENT ----------------------
+subgraph QMS_DOC [QMS Document Management]
+    DOC1[Create Document (SOP / CRF)]
+    DOC2[Document Review]
+    DOC3[Document Approval]
 end
 
-%% ----- Protocol Audit -----
+DOC1 --> DOC2 --> DOC3
+
+%% ---------------------- PROTOCOL AUDIT ----------------------
 subgraph AUDIT [Protocol Audit]
     A1[Plan Audit]
     A2[Execute Audit at Site]
@@ -45,16 +18,31 @@ subgraph AUDIT [Protocol Audit]
     A4[Submit Audit Report]
 end
 
-%% ----- CAPA -----
-subgraph CAPA [Corrective & Preventive Action]
-    C1[CAPA Triggered Automatically]
-    C2[CAPA Review by QA]
-    C3[CAPA Approval]
+A1 --> A2 --> A3 --> A4
+
+%% ---------------------- CAPA WORKFLOW ----------------------
+subgraph CAPA [CAPA Workflow]
+    C1[Initiate CAPA]
+    C2[Root-Cause Analysis]
+    C3[Implement Corrective Actions]
     C4[Effectiveness Check]
-    C5[CAPA Closure]
+    C5[Close CAPA]
 end
 
-%% ----- Workflow -----
-D3 --> A1
-A4 --> C1
-C5 --> DOC
+C1 --> C2 --> C3 --> C4 --> C5
+
+%% ---------------------- AE / SAE REPORTING ----------------------
+subgraph AE [AE / SAE Reporting]
+    E1[Capture Patient AE Details]
+    E2[Medical Evaluation]
+    E3[Submit AE Report]
+    E4[Regulatory Notification]
+end
+
+E1 --> E2 --> E3 --> E4
+
+%% ---------------------- FLOW BETWEEN MODULES ----------------------
+DOC3 --> A1   %% Approved documents → basis for audits
+A4 --> C1     %% Audit findings → trigger CAPA
+C5 --> E1     %% Closed CAPA improves AE reporting quality
+```
